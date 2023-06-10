@@ -1,0 +1,40 @@
+.negativeChange{
+    color:rgb(254,135,134);
+}
+.callPut{
+    display: flex;
+    width: 100%;
+    flex-grow: 1;
+    position: sticky;
+    top:136px;
+    background-color: white;
+}
+.callPut > div{
+    width: 50%;
+    font-size: larger;
+    letter-spacing: 1px;
+}
+.strikeCol{
+    border: 1px solid #E3D3FC;
+    background-color: #EFE9FA;
+}
+
+.ltpRow{
+    
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+}
+.ltpRow p{
+    background-color: #DCDCDC;
+    border: 1px solid #D0D0D0;
+    padding: 0px 5px;
+    text-align: center;
+
+}
+
+thead{
+    position: sticky;
+    z-index: 1;
+    top: 166px;
+}
