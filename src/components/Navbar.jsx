@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
+import { NavLink } from 'react-router-dom';
+
 const Navbar = () => {
     return (
         <NavContainer>
@@ -14,7 +16,7 @@ const Navbar = () => {
                         <a>Dashboard</a>
                     </NavList>
                     <NavList>
-                        <a>Option chain</a>
+                        <NavLink to="/" >Option chain</NavLink>
                     </NavList>
                     <NavList>
                         <a>Strategy build</a>
@@ -79,7 +81,10 @@ list-style-type: none;
 
 
 const NavList = styled.li`
-
+.active{
+    color:blue;
+    text-decoration:none;
+}
 `
 
 

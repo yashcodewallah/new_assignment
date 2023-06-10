@@ -27,7 +27,7 @@ justify-content: space-between;
 width: 100%;
 }
 .filterLtpRange > div >input{
-    width:100px;
+width:41%;
 padding : 5px;
 }
 
@@ -98,4 +98,144 @@ background-color: white;
 .filterButtonSection button:nth-child(2){
 background-color:#2D57F4 ;
 color: white;
+}
+
+.negativeChange{
+    color:rgb(254,135,134);
+}
+.callPut{
+    display: flex;
+    width: 100%;
+    flex-grow: 1;
+    position: sticky;
+    top:136px;
+    background-color: white;
+}
+.callPut > div{
+    width: 50%;
+    font-size: larger;
+    letter-spacing: 1px;
+}
+.strikeCol{
+    border: 1px solid #E3D3FC;
+    background-color: #EFE9FA;
+}
+
+.ltpRow{
+    
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+}
+.ltpRow p{
+    background-color: #DCDCDC;
+    border: 1px solid #D0D0D0;
+    padding: 0px 5px;
+    text-align: center;
+
+}
+
+.tableHead{
+    position: sticky;
+    z-index: 1;
+    top: 166px;
+}
+
+.basket1{
+    display: flex;
+    background:#2D57F4;
+    color:white;
+    width:100%;
+    flex-grow: 1;
+}
+.basket1 div{
+    flex-grow: 1;
+    padding: 10px 0px;
+}
+
+.basketTableContainer{
+    min-height: 40vh;
+    flex-grow: 1;
+}
+.basketTableContainer table{
+        width:100%;
+        border-collapse: collapse;
+}
+
+.basketTableContainer table tr{
+    padding-bottom: 10px;
+}
+td{
+ font-family: "poppins";
+}
+
+.headingRow th{
+text-align: start;
+padding: 10px;
+color: #6B6B6A;
+}
+
+
+.dateData{
+text-align: start;
+}
+.bdData{
+    width: 30px;
+    background-color: #87C6E7;
+}
+.typeData{
+    background-color: #2D57F4;
+    color: white;
+}
+.qtyData,.priceData,.triggerData{
+    border:2px solid #D9D9D9;
+    text-align: center;
+}
+
+.slData{
+    width: 200px;
+}
+.slData img{
+max-width: 10px;
+margin-left: 20px;
+}
+.slData{
+    color:rgb(54, 54, 199);
+}
+.line{
+    width: 100%;
+    border: 0.5px solid black;
+}
+
+.BasketBottom{
+    width: auto;
+    justify-content: space-between;
+    align-items: center;
+    display:flex;
+    padding:20px;
+}
+.autoHedge{
+    text-align: center;
+    width: 100px;
+    background-color:yellow;
+}
+.autoHedge img{
+max-width:15px;
+text-align: center;
+}
+
+.buttonBasket button{
+padding:10px 13px;
+font-size: 15px;
+margin-left:20px ;
+}
+
+.buttonBasket button:nth-child(1){
+    background-color: white;
+    color: #2D57F4;
+}
+
+.buttonBasket button:nth-child(1){
+    background-color:#2D57F4 ;
+    color: white;
 }
